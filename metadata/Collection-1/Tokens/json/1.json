@@ -1,0 +1,29 @@
+{
+  "name": "In Circles",
+  "description": "‘In Circles’ is the anthem of transformation for anyone who is tired of the shackles held down by the 9-5 rat race that we call life. In this song, Stevie Flowers is trapped in a self-made prison that was built to escape with sonic inspirations drawn from indie pop and new wave guitar riffs. Fighting the realization just because you invested time, money, and energy into your life-path, there are no obligations to comply if it gives your life no meaning or joy. Themes of metamorphosis and fulfillment are patterns in Flowers' music that are surrounded by catchy tunes and happy ambience.",
+  "image": "https://storageapi.fleek.co/be7986c9-5c86-46d7-b855-071264f7611c-bucket/Tokn/collection1/Tokens/images/1.png",
+  "attributes": [
+    {
+      "display_type": "number",
+      "trait_type": "Total Royalty Percentage",
+      "value": 20,
+      "max_value": 100
+    },
+    {
+      "trait_type": "Artist",
+      "value": "Stevie Flowers"
+    },
+    {
+      "trait_type": "Genre",
+      "value": "New Wave"
+    },
+    {
+      "trait_type": "Genre",
+      "value": "Indie Pop"
+    },
+    {
+      "trait_type": "Genre",
+      "value": "Underground"
+    }
+  ]
+}

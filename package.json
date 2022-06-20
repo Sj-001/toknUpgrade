@@ -1,0 +1,29 @@
+{
+  "name": "toknupgrade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "comp": "npx hardhat clean && npx hardhat compile",
+    "deploy": "node scripts/deploy_initial.js 0x8C506D6B1E205C559036f10D2c47605d5C2580c9 https://storageapi.fleek.co/be7986c9-5c86-46d7-b855-071264f7611c-bucket/Tokn/collection1/Tokens/json/",
+    "upgrade": "node scripts/upgrade_collection.js 0x0F38E045f2E2fb436690a9d91700e9846B6DC9DC 0x8C506D6B1E205C559036f10D2c47605d5C2580c9 https://storageapi.fleek.co/cdc6e4fa-9a34-4c72-b0e6-e517b6d38944-bucket/Prologue/Tokens/json/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.9.6"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@openzeppelin/contracts-upgradeable": "^4.6.0",
+    "dotenv": "^16.0.1"
+  }
+}
